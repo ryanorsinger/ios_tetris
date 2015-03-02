@@ -26,6 +26,7 @@
 		C858657A1AA11CE8009835B4 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C85865741AA11CE8009835B4 /* gameboard@2x.png */; };
 		C858657B1AA11CE8009835B4 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = C85865751AA11CE8009835B4 /* whitebg.png */; };
 		C858657C1AA11CE8009835B4 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C85865761AA11CE8009835B4 /* whitebg@2x.png */; };
+		C8ED3F661AA51D86008A14D5 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED3F651AA51D86008A14D5 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C85865741AA11CE8009835B4 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
 		C85865751AA11CE8009835B4 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		C85865761AA11CE8009835B4 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		C8ED3F651AA51D86008A14D5 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				C858656F1AA11C40009835B4 /* Sprites.atlas */,
 				C85865641AA11C24009835B4 /* Sounds */,
 				C858653E1AA0FBEC009835B4 /* Supporting Files */,
+				C8ED3F651AA51D86008A14D5 /* Array2D.swift */,
 			);
 			path = tetris;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85865451AA0FBEC009835B4 /* GameScene.swift in Sources */,
+				C8ED3F661AA51D86008A14D5 /* Array2D.swift in Sources */,
 				C85865471AA0FBEC009835B4 /* GameViewController.swift in Sources */,
 				C85865411AA0FBEC009835B4 /* AppDelegate.swift in Sources */,
 			);
